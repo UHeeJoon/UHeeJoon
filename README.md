@@ -1,20 +1,20 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=UHeeJoon's%20Githb&fontSize=90)
 
-## Team Project
+# Team Project
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=team-osca2&repo=spring-osca)](https://github.com/team-osca2/spring-osca)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=BodeumMe)](https://github.com/UHeeJoon/BodeumMe)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hanghae99)](https://github.com/UHeeJoon/hanghae99)
 
-## Personal Project
+# Personal Project
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hs-major)](https://github.com/UHeeJoon/hs-major) 
 
-## Education
+# Education
 코리아 IT아카데미아 주말 웹개발 반  
 코리아 IT아카데미아 평일 웹개발 반  
 코리아 IT아카데미아 주말 sqld반  
 한신대 정보통신 학부   
 
-## Languages
+# Languages
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
@@ -27,7 +27,7 @@
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-## Framworks & Libraries
+# Framworks & Libraries
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) 
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) 
@@ -43,7 +43,7 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
 
-## Tools
+# Tools
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
@@ -56,7 +56,7 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-## OS & Hardware
+# OS & Hardware
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
