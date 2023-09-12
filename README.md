@@ -6,7 +6,7 @@
 2호선 뭐먹지?!  
 
 ## Personal Project
-학교 행사 사전 예약 서비스  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hs-major)](https://github.com/UHeeJoon/hs-major) 
 
 ## Education
 코리아 IT아카데미아 주말 웹개발 반  
