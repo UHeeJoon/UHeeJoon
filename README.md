@@ -1,5 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=UHeeJoon's%20Githb&fontSize=90)
 
+[![Blogg](https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://velog.io/@uheejoon)
+
 # Team Project
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=team-osca2&repo=spring-osca)](https://github.com/team-osca2/spring-osca)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=BodeumMe)](https://github.com/UHeeJoon/BodeumMe)
@@ -63,4 +65,4 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=UHeeJoon&theme=buefy&show_icons=true)
 
-[다른 깃 허브 : ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dev-RuntimeTerror)
+![다른 깃 허브](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)(https://github.com/Dev-RuntimeTerror)
