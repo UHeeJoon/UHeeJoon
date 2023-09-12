@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=UHeeJoon's%20Githb&fontSize=90)
 
 ## Team Project
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Dev-RuntimeTerror&repo=spring-osca)](https://github.com/Dev-RuntimeTerror/spring-osca)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=team-osca2&repo=spring-osca)](https://github.com/team-osca2/spring-osca)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=BodeumMe)](https://github.com/UHeeJoon/BodeumMe)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hanghae99)](https://github.com/UHeeJoon/hanghae99)
 
