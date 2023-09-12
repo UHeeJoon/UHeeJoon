@@ -1,18 +1,18 @@
 
 
 ## Team Project
-오!스카
-보듬미
-2호선 뭐먹지?!
+오!스카  
+보듬미  
+2호선 뭐먹지?!  
 
 ## Personal Project
-학교 행사 사전 예약 서비스
+학교 행사 사전 예약 서비스  
 
 ## Education
-코리아 IT아카데미아 주말 웹개발 반
-코리아 IT아카데미아 평일 웹개발 반
-코리아 IT아카데미아 주말 sqld반
-한신대 정보통신 학부
+코리아 IT아카데미아 주말 웹개발 반  
+코리아 IT아카데미아 평일 웹개발 반  
+코리아 IT아카데미아 주말 sqld반  
+한신대 정보통신 학부   
 
 ## Languages
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
