@@ -2,8 +2,11 @@
 
 ## Team Project
 오!스카  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Dev-RuntimeTerror&repo=spring-osca)](https://github.com/Dev-RuntimeTerror/spring-osca) 
 보듬미  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=BodeumMe)](https://github.com/UHeeJoon/BodeumMe) 
 2호선 뭐먹지?!  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hanghae99)](https://github.com/UHeeJoon/hanghae99) 
 
 ## Personal Project
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hs-major)](https://github.com/UHeeJoon/hs-major) 
