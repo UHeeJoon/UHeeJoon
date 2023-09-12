@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=UHeeJoon's%20Githb&fontSize=90&fontColor=white)
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=UHeeJoon's%20Githb&fontSize=90)
 
 ## Team Project
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Dev-RuntimeTerror&repo=spring-osca)](https://github.com/Dev-RuntimeTerror/spring-osca)
