@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=UHeeJoon's%20Githb&fontSize=90)
 
 [![Blog](https://img.shields.io/badge/Algorithm%20Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://velog.io/@uheejoon)
-[![Blog](https://img.shields.io/badge/til%45theory%20Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://codding-til-theory.tistory.com/manage)
+[![Blog](https://img.shields.io/badge/tilㅡtheory%20Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://codding-til-theory.tistory.com/manage)
 [![](https://img.shields.io/badge/다른%20깃허브%20계정-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dev-RuntimeTerror)
 # Team Project
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=team-osca2&repo=spring-osca)](https://github.com/team-osca2/spring-osca)
