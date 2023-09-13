@@ -11,6 +11,7 @@
 
 # Personal Project
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hs-major)](https://github.com/UHeeJoon/hs-major) 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=FlappyClone)](https://github.com/UHeeJoon/FlappyClone)
 
 # Education
 코리아 IT아카데미아 주말 웹개발 반  
