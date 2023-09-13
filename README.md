@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=UHeeJoon's%20Githb&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=UHeeJoon's%20Github&fontSize=90)
 
 [![Blog](https://img.shields.io/badge/Algorithm%20Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://velog.io/@uheejoon)
 [![Blog](https://img.shields.io/badge/tilㅡtheory%20Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://codding-til-theory.tistory.com/manage)
