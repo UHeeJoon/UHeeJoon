@@ -10,10 +10,8 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hanghae99)](https://github.com/UHeeJoon/hanghae99)
 
 # Personal Project
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hs-major)](https://github.com/UHeeJoon/hs-major) 
-<!--
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=FlappyClone)](https://github.com/UHeeJoon/FlappyClone)
--->
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hs-major)](https://github.com/UHeeJoon/hs-major)
+<!-- [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=FlappyClone)](https://github.com/UHeeJoon/FlappyClone) -->
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=react-tictactoe)](https://github.com/UHeeJoon/react-tictactoe)
 
 # Education
