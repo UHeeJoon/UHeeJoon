@@ -1,6 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=UHeeJoon's%20Github&fontSize=90)
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbgmlwns)](https://solved.ac/dbgmlwns/)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=UHeeJoon&theme=buefy&show_icons=true)
 
 [![Blog](https://img.shields.io/badge/Algorithm%20Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://velog.io/@uheejoon)
 [![Blog](https://img.shields.io/badge/tilㅡtheory%20Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://codding-til-theory.tistory.com/manage)
@@ -67,4 +68,3 @@
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=UHeeJoon&theme=buefy&show_icons=true)
