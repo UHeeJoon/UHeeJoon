@@ -66,3 +66,4 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=UHeeJoon&theme=buefy&show_icons=true)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbgmlwns)](https://solved.ac/dbgmlwns/)
