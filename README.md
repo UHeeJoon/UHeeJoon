@@ -13,6 +13,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=team-osca2&repo=spring-osca)](https://github.com/team-osca2/spring-osca)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=O-O-A-A&repo=BodeumMe)](https://github.com/O-O-A-A/BodeumMe)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hanghae99)](https://github.com/UHeeJoon/hanghae99)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=project-ggachi&repo=letter-of-ggachi)](https://github.com/project-ggachi/letter-of-ggachi)
 
 # Personal Project
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=UHeeJoon&repo=hs-major)](https://github.com/UHeeJoon/hs-major)
