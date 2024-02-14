@@ -2,11 +2,13 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbgmlwns)](https://solved.ac/dbgmlwns/)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=UHeeJoon&theme=buefy&show_icons=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=UHeeJoon&theme=vue-dark&show_icons=true)
 
 [![Blog](https://img.shields.io/badge/Algorithm%20Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://velog.io/@uheejoon)
+<!--
 [![Blog](https://img.shields.io/badge/tilㅡtheory%20Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://codding-til-theory.tistory.com/manage)
 [![](https://img.shields.io/badge/other%20github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dev-RuntimeTerror)
+-->
 
 # Team Project
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=team-osca2&repo=spring-osca)](https://github.com/team-osca2/spring-osca)
