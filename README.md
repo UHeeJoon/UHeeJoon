@@ -1,7 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=UHeeJoon's%20Github&fontSize=90)
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbgmlwns)](https://solved.ac/dbgmlwns/)
-
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=UHeeJoon&theme=vue-dark&show_icons=true)
 
 [![Blog](https://img.shields.io/badge/Algorithm%20Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://velog.io/@uheejoon)
