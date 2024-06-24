@@ -8,6 +8,7 @@
 <!--
 [![](https://img.shields.io/badge/other%20github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dev-RuntimeTerror)
 -->
+![LeetCode Stats](https://leetcard.jacoblin.cool/dbgmlwns?ext=heatmap)
 
 # Team Project
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=team-osca2&repo=spring-osca)](https://github.com/team-osca2/spring-osca)
