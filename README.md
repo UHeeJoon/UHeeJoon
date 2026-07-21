@@ -60,12 +60,13 @@
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 
 ---
-
+<!--
 ## Projects
 
 ### Team
 **Team**
 
+ 
 [![spring-osca](./profile/pin-spring-osca.svg)](https://github.com/team-osca2/spring-osca)
 [![BodeumMe](./profile/pin-bodeumme.svg)](https://github.com/O-O-A-A/BodeumMe)
 
@@ -82,6 +83,12 @@
 [![Solved.ac](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbgmlwns)](https://solved.ac/dbgmlwns/)
 
 ---
+-->
+
+## Certification
+
+- SQLD
+- AWS SAA-C03
 
 ## Education
 
