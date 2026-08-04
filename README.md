@@ -97,4 +97,4 @@
 
 ---
 
-[![Tokenphage](https://api.tokenphage.com/badge/UHeeJoon?theme=gpu&mode=dark)](https://github.com/TOKENPHAGE)
+[![Tokenphage](https://api.tokenphage.com/badge/UHeeJoon?theme=grass-claude&mode=dark)](https://github.com/TOKENPHAGE)
