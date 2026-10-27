@@ -69,9 +69,6 @@
 ## Projects
 
 ### [Search Platform](https://github.com/UHeeJoon/search-platform) — 게시글 검색 · 에스크로 결제
-
-[![search-platform](./profile/pin-search-platform.svg)](https://github.com/UHeeJoon/search-platform)
-
 `Spring Boot` `MySQL` `Elasticsearch` `Kafka` `Debezium` `Saga` `k6` · 개인 프로젝트 (F-Lab 멘토링)
 
 - 검색 구현을 단계별로 바꿔 같은 부하로 측정 → Elasticsearch 전환으로 조건이 매번 다른 검색 p95 *42.7초 → 549ms*
@@ -87,23 +84,17 @@
 - 대기열 조회 간격 계산을 고쳐 입장 지연 p95 *31초 → 3초*
 - Transactional Outbox + SQS + DLQ로 외부 등록 유실 방지, 응답에 따라 스스로 조절하는 동시 요청 한도
 
-### Team · Personal
-
-[![spring-osca](./profile/pin-spring-osca.svg)](https://github.com/team-osca2/spring-osca)
-[![BodeumMe](./profile/pin-bodeumme.svg)](https://github.com/O-O-A-A/BodeumMe)
-[![hs-major](./profile/pin-hs-major.svg)](https://github.com/UHeeJoon/hs-major)
-[![hanghae99](./profile/pin-hanghae99.svg)](https://github.com/UHeeJoon/hanghae99)
-
 ---
 
 ## GitHub & PS
 
-![GitHub Stats](./profile/stats.svg)
 [![Solved.ac](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbgmlwns)](https://solved.ac/dbgmlwns/)
 
 **AI Coding Usage**
 
 <img width="100%" src="./cards/ai-usage-combo.svg" alt="AI coding usage" />
+
+[![Tokenphage](https://api.tokenphage.com/badge/UHeeJoon?theme=grass-claude&mode=dark)](https://github.com/TOKENPHAGE)
 
 ---
 
@@ -121,7 +112,3 @@
 - **코리아 IT 아카데미** Java/Spring 웹개발 · SQLD 과정
 
 > 공부한 내용은 [기술 블로그](https://codding-til-theory.tistory.com)에 기록하고 있습니다.
-
----
-
-[![Tokenphage](https://api.tokenphage.com/badge/UHeeJoon?theme=grass-claude&mode=dark)](https://github.com/TOKENPHAGE)
