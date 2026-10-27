@@ -19,7 +19,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&include_all_commits=true
           path: profile/stats.svg
-          token: ${{ secrets.READ_KEY }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - spring-osca
         uses: stats-organization/github-readme-stats-action@v2
@@ -27,7 +27,7 @@ jobs:
           card: pin
           options: username=team-osca2&repo=spring-osca
           path: profile/pin-spring-osca.svg
-          token: ${{ secrets.READ_KEY }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - BodeumMe
         uses: stats-organization/github-readme-stats-action@v2
@@ -35,7 +35,7 @@ jobs:
           card: pin
           options: username=O-O-A-A&repo=BodeumMe
           path: profile/pin-bodeumme.svg
-          token: ${{ secrets.READ_KEY }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - hs-major
         uses: stats-organization/github-readme-stats-action@v2
@@ -43,7 +43,7 @@ jobs:
           card: pin
           options: username=UHeeJoon&repo=hs-major
           path: profile/pin-hs-major.svg
-          token: ${{ secrets.READ_KEY }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - hanghae99
         uses: stats-organization/github-readme-stats-action@v2
@@ -51,7 +51,7 @@ jobs:
           card: pin
           options: username=UHeeJoon&repo=hanghae99
           path: profile/pin-hanghae99.svg
-          token: ${{ secrets.READ_KEY }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - search-platform
         uses: stats-organization/github-readme-stats-action@v2
@@ -59,7 +59,7 @@ jobs:
           card: pin
           options: username=UHeeJoon&repo=search-platform
           path: profile/pin-search-platform.svg
-          token: ${{ secrets.READ_KEY }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
         run: |
