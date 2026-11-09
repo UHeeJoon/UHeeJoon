@@ -76,7 +76,7 @@
 - 환불 Saga의 실패를 재시도 가능/불가로 나누고 보상 트랜잭션 도입, 원장 기준 건별 대사로 *정산 누락 1건* 발견 · 보정
 
 ### [NOVA](https://github.com/Nova-Grandis/be) — 사전예약 서비스
-`Spring Boot` `MySQL` `Valkey` `SQS` `Resilience4j` `Terraform` `k6` · LG U+ 유레카 부트캠프 9인 팀
+`Spring Boot` `MySQL` `Valkey` `SQS` `Resilience4j` `Terraform` `k6` · LG U+ 유레카 부트캠프 7인 팀
 
 10초에 5,000명이 몰리는 사전예약 서비스에서 AWS 인프라와 접수 · 대기열 · 외부 연동 worker를 담당했습니다.
 
