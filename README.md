@@ -1,10 +1,14 @@
 # 유희준 (UHeeJoon)
 
-**Backend Engineer · Java / Spring**
+**Backend & DevOps Engineer · Java / Spring · AWS / Kubernetes**
 
-추측하기보다 **측정하고 재현해서** 문제를 확인하는 백엔드 개발자입니다.
-멀티테넌트 SSO 인증 서비스를 신규 구축 TF에서 처음부터 설계했고, 장애가 나도 **서비스와 데이터가 버티는 구조**를 만드는 데 집중해 왔습니다.
+추측하기보다 **측정하고 재현해서** 문제를 확인하는 백엔드 & DevOps 엔지니어입니다.
+멀티테넌트 SSO 인증 서비스를 신규 구축 TF에서 처음부터 만들며 EKS와 GitOps 배포를 맡았고, 부트캠프에서는 5,000명이 몰리는 사전예약 서비스의 AWS 인프라를 Terraform으로 설계하고 운영했습니다.
+장애가 나도 **서비스와 데이터가 버티는 구조**를 만드는 데 집중해 왔습니다.
 
+> 📂 프로젝트별 문제와 해결 과정은 **[포트폴리오 사이트](https://uheejoon.github.io/)** 에 정리했습니다.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-uheejoon.github.io-222222?style=flat-square&logo=githubpages&logoColor=white)](https://uheejoon.github.io/)
 [![Tistory](https://img.shields.io/badge/Tech_Blog-FF5722?style=flat-square&logo=tistory&logoColor=white)](https://codding-til-theory.tistory.com)
 [![Velog](https://img.shields.io/badge/Algorithm_Blog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@uheejoon)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:yhjyhj3855@gmail.com)
@@ -41,6 +45,9 @@
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Atlantis](https://img.shields.io/badge/Atlantis-0B5FFF?style=flat-square)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana_LGTM-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
 
 ---
@@ -49,7 +56,7 @@
 
 **총 1년 7개월** (정규직 11개월, 인턴 8개월)
 
-### (주)옥타코 · Backend 및 DevOps 팀원 (2025.04 – 2026.02)
+### [(주)옥타코](https://uheejoon.github.io/projects/octaco.html) · Backend 및 DevOps 팀원 (2025.04 – 2026.02)
 
 멀티테넌트 SSO 신규 구축 TF(백엔드 3명)에서 고객사 판별(Resolve Server), Redis 세션, 데이터 격리, 인프라를 담당했습니다.
 
@@ -57,7 +64,9 @@
 - **캐시** — 인증 정책을 Redis Cache-Aside로 캐시해 적중률 *97% 이상*, TTL Jitter + Single Flight로 동시 만료에도 DB 조회 *인스턴스당 1회*
 - **성능** — 50만 건 부하 시험으로 검색 지연을 발견, pg_trgm GIN 인덱스와 UNION 분리로 쿼리 *987ms → 20ms*
 - **데이터 격리** — 고객사별 Schema 분리(Hibernate Multi-Tenancy), 실패 시 보상 트랜잭션으로 되돌리는 고객사 온보딩 서비스
-- **인프라** — EKS 전환, Helm 공통 Template + Argo CD로 배포 *30분 → 10분 이내*, IRSA로 서비스별 최소 권한 분리
+- **배포** — VM 수동 배포를 EKS로 옮기고 Helm 공통 Template + Argo CD GitOps로 배포 이력과 롤백을 Git으로 관리 (롤백은 Git Revert 한 번)
+- **운영** — 주말 동안 수백 번 반복되던 Pod 재시작을 startupProbe와 CPU limit 조정으로 해소하고 서비스 공통 기준으로 반영
+- **보안** — IRSA로 서비스별 최소 권한 분리, IMDS 차단과 NetworkPolicy Default Deny, Secrets Manager 도입
 
 ### (주)모빌씨앤씨 · Backend 대학 연계 인턴 (2024.08 – 2025.03)
 
@@ -68,21 +77,25 @@
 
 ## Projects
 
-### [Search Platform](https://github.com/UHeeJoon/search-platform) — 게시글 검색 · 에스크로 결제
+### [Search Platform](https://uheejoon.github.io/projects/search-platform.html) — 게시글 검색 · 에스크로 결제 · [GitHub](https://github.com/UHeeJoon/search-platform)
 `Spring Boot` `MySQL` `Elasticsearch` `Kafka` `Debezium` `Saga` `k6` · 개인 프로젝트 (F-Lab 멘토링)
 
 - 검색 구현을 단계별로 바꿔 같은 부하로 측정 → Elasticsearch 전환으로 조건이 매번 다른 검색 p95 *42.7초 → 549ms*
 - 결제 트랜잭션 안에서 게시글을 선점해 동시 결제 *이중 판매 0건*
 - 환불 Saga의 실패를 재시도 가능/불가로 나누고 보상 트랜잭션 도입, 원장 기준 건별 대사로 *정산 누락 1건* 발견 · 보정
 
-### [NOVA](https://github.com/Nova-Grandis/be) — 사전예약 서비스
-`Spring Boot` `MySQL` `Valkey` `SQS` `Resilience4j` `Terraform` `k6` · LG U+ 유레카 부트캠프 7인 팀
+### [NOVA](https://uheejoon.github.io/projects/nova.html) — 사전예약 서비스
+`Spring Boot` `MySQL` `Valkey` `SQS` `ECS Fargate` `Terraform` `Atlantis` `OpenTelemetry` `k6` · LG U+ 유레카 부트캠프 7인 팀 · [BE](https://github.com/Nova-Grandis/be) · [Infra](https://github.com/Nova-Grandis/nova-infra)
 
 10초에 5,000명이 몰리는 사전예약 서비스에서 AWS 인프라와 접수 · 대기열 · 외부 연동 worker를 담당했습니다.
 
 - Lock 시점을 늦춰 Lock 구간 SQL을 7개 → 3개로 줄이고 접수 응답 p50 *521ms → 48ms*
 - 대기열 조회 간격 계산을 고쳐 입장 지연 p95 *31초 → 3초*
 - Transactional Outbox + SQS + DLQ로 외부 등록 유실 방지, 응답에 따라 스스로 조절하는 동시 요청 한도
+- **IaC** — 서비스 폴더에 `service.yml` 하나만 추가하면 배포 인프라가 준비되는 Terraform 구조, PR을 거친 변경만 Atlantis로 AWS에 적용
+- **관측** — OpenTelemetry로 지표 · 로그 · 트레이스를 Mimir · Loki · Tempo에 모아 Grafana 한 화면에서 경보부터 원인까지 추적
+- **부하 시험** — 판매 오픈을 운영과 같은 경로로 재현하는 k6 클러스터로 확장 설정을 조정해 첫 1분 p95 *4.67초 → 30ms*
+- **비용** — 목표 구조는 Terraform 코드로 유지하고 운영 구성만 낮춰 월 비용 목표 구조 *약 890달러 → 운영비 약 240달러 (73% 절감)*
 
 ---
 
