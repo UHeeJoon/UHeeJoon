@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "linux-main",
-  "updatedAt": "2026-11-15T00:37:11.966Z",
+  "updatedAt": "2026-11-16T00:37:22.473Z",
   "totals": {
-    "totalTokens": 56204778852,
-    "inputTokens": 29265612,
-    "outputTokens": 153371761,
-    "cacheCreationTokens": 722524743,
-    "cacheReadTokens": 55299326172,
-    "totalCost": 33872.79900239
+    "totalTokens": 56241810790,
+    "inputTokens": 29266186,
+    "outputTokens": 153597240,
+    "cacheCreationTokens": 723356256,
+    "cacheReadTokens": 55335300544,
+    "totalCost": 33902.32183679
   },
   "daily": [
     {
@@ -4071,21 +4071,42 @@
     },
     {
       "period": "2026-11-15",
-      "totalTokens": 14740312,
-      "inputTokens": 296,
-      "outputTokens": 132436,
-      "cacheCreationTokens": 268544,
-      "cacheReadTokens": 14339036,
-      "totalCost": 12.4643192,
+      "totalTokens": 42508978,
+      "inputTokens": 690,
+      "outputTokens": 291402,
+      "cacheCreationTokens": 785042,
+      "cacheReadTokens": 41431844,
+      "totalCost": 32.508640799999995,
       "modelBreakdowns": [
         {
           "modelName": "claude-fable-5-2",
-          "cost": 12.4643192,
+          "cost": 32.508640799999995,
           "totalTokens": 0,
-          "inputTokens": 296,
-          "outputTokens": 132436,
-          "cacheCreationTokens": 268544,
-          "cacheReadTokens": 14339036,
+          "inputTokens": 690,
+          "outputTokens": 291402,
+          "cacheCreationTokens": 785042,
+          "cacheReadTokens": 41431844,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-11-16",
+      "totalTokens": 9263272,
+      "inputTokens": 180,
+      "outputTokens": 66513,
+      "cacheCreationTokens": 315015,
+      "cacheReadTokens": 8881564,
+      "totalCost": 9.478512800000004,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-fable-5-2",
+          "cost": 9.478512800000004,
+          "totalTokens": 0,
+          "inputTokens": 180,
+          "outputTokens": 66513,
+          "cacheCreationTokens": 315015,
+          "cacheReadTokens": 8881564,
           "totalCost": 0
         }
       ]
