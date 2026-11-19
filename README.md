@@ -10,7 +10,7 @@
 
 장애가 나도 **서비스와 데이터가 버티는 구조**를 만드는 데 집중해 왔습니다.
 
-> 📂 프로젝트별 문제와 해결 과정은 **[포트폴리오 사이트](https://uheejoon.github.io/)** 에 정리했습니다.
+<!-- > 📂 프로젝트별 문제와 해결 과정은 **[포트폴리오 사이트](https://uheejoon.github.io/)** 에 정리했습니다. -->
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-24292F?style=flat-square&logo=github&logoColor=white)](https://uheejoon.github.io/)
 [![Tistory](https://img.shields.io/badge/Tech_Blog-FF5722?style=flat-square&logo=tistory&logoColor=white)](https://codding-til-theory.tistory.com)
@@ -64,7 +64,7 @@
 
 멀티테넌트 SSO 신규 구축 TF(백엔드 3명)에서 고객사 판별(Resolve Server), Redis 세션, 데이터 격리, 인프라를 담당했습니다.
 
-> 🔗 [포트폴리오 상세](https://uheejoon.github.io/projects/octaco.html)
+<!-- > 🔗 [포트폴리오 상세](https://uheejoon.github.io/projects/octaco.html) -->
 
 - **배포** — VM 수동 배포를 EKS로 옮기고 Helm 공통 Template + Argo CD GitOps로 배포 이력과 롤백을 Git으로 관리 (롤백은 Git Revert 한 번)
 - **운영** — 주말 동안 수백 번 반복되던 Pod 재시작을 startupProbe와 CPU limit 조정으로 해소하고 서비스 공통 기준으로 반영
@@ -83,19 +83,11 @@
 
 ## Projects
 
-### [Search Platform](https://github.com/UHeeJoon/search-platform) — 게시글 검색 · 에스크로 결제
-`Spring Boot` `MySQL` `Elasticsearch` `Kafka` `Debezium` `Saga` `k6` · 개인 프로젝트 (F-Lab 멘토링)
-
-> 🔗 [포트폴리오 상세](https://uheejoon.github.io/projects/search-platform.html)
-
-- 검색 구현을 단계별로 바꿔 같은 부하로 측정 → Elasticsearch 전환으로 조건이 매번 다른 검색 p95 *42.7초 → 549ms*
-- 결제 트랜잭션 안에서 게시글을 선점해 동시 결제 *이중 판매 0건*
-- 환불 Saga의 실패를 재시도 가능/불가로 나누고 보상 트랜잭션 도입, 원장 기준 건별 대사로 *정산 누락 1건* 발견 · 보정
-
 ### [NOVA](https://github.com/Nova-Grandis/be) — 사전예약 서비스
 `Spring Boot` `MySQL` `Valkey` `SQS` `ECS Fargate` `Terraform` `Atlantis` `OpenTelemetry` `k6` · LG U+ 유레카 부트캠프 7인 팀
 
-> 🔗 [포트폴리오 상세](https://uheejoon.github.io/projects/nova.html) · [BE](https://github.com/Nova-Grandis/be) · [Infra](https://github.com/Nova-Grandis/nova-infra)
+[BE](https://github.com/Nova-Grandis/be) · [Infra](https://github.com/Nova-Grandis/nova-infra)
+<!-- > 🔗 [포트폴리오 상세](https://uheejoon.github.io/projects/nova.html) · [BE](https://github.com/Nova-Grandis/be) · [Infra](https://github.com/Nova-Grandis/nova-infra) -->
 
 10초에 5,000명이 몰리는 사전예약 서비스에서 AWS 인프라와 접수 · 대기열 · 외부 연동 worker를 담당했습니다.
 
@@ -106,6 +98,15 @@
 - **관측** — OpenTelemetry로 지표 · 로그 · 트레이스를 Mimir · Loki · Tempo에 모아 Grafana 한 화면에서 경보부터 원인까지 추적
 - **부하 시험** — 판매 오픈을 운영과 같은 경로로 재현하는 k6 클러스터로 확장 설정을 조정해 첫 1분 p95 *4.67초 → 30ms*
 - **비용** — 목표 구조는 Terraform 코드로 유지하고 운영 구성만 낮춰 월 *약 890달러 → 약 240달러* (73% 절감)
+
+### [Search Platform](https://github.com/UHeeJoon/search-platform) — 게시글 검색 · 에스크로 결제
+`Spring Boot` `MySQL` `Elasticsearch` `Kafka` `Debezium` `Saga` `k6` · 개인 프로젝트 (F-Lab 멘토링)
+
+<!-- > 🔗 [포트폴리오 상세](https://uheejoon.github.io/projects/search-platform.html) -->
+
+- 검색 구현을 단계별로 바꿔 같은 부하로 측정 → Elasticsearch 전환으로 조건이 매번 다른 검색 p95 *42.7초 → 549ms*
+- 결제 트랜잭션 안에서 게시글을 선점해 동시 결제 *이중 판매 0건*
+- 환불 Saga의 실패를 재시도 가능/불가로 나누고 보상 트랜잭션 도입, 원장 기준 건별 대사로 *정산 누락 1건* 발견 · 보정
 
 ---
 
